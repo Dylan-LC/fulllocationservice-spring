@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862478b4-4cc9-4207-a6ff-957c9127fdc1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/locationsimulator/src/main/resources/directions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locationsimulator/src/main/resources/fixture.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locationsimulator/src/main/resources/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locationingest/src/main/java/com/yongyan/LocationIngestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locationingest/src/main/java/com/yongyan/VehiclePositionsSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locationingest/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locationingest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/locationingest/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,29 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LocationSimulatorRestApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/java/com/yongyan/controller/LocationSimulatorRestApi.java">
+      <file leaf-file-name="LocationIngestApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locationingest/src/main/java/com/yongyan/LocationIngestApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1852#1853#0" expanded="true" />
-                <element signature="e#1895#1896#0" expanded="true" />
-                <element signature="e#2571#2572#0" expanded="true" />
-                <element signature="e#2626#2627#0" expanded="true" />
-                <element signature="e#2723#2724#0" expanded="true" />
-                <element signature="e#2778#2779#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PathService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/java/com/yongyan/service/PathService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="44">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,29 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appliaction.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/resources/appliaction.yml">
+      <file leaf-file-name="VehiclePositionsSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locationingest/src/main/java/com/yongyan/VehiclePositionsSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/resources/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultPathService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/java/com/yongyan/service/Impl/DefaultPathService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1002">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="418">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,32 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="directions.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/resources/directions.json">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locationingest/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="176">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fixture.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/resources/fixture.json">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="171" column="43" selection-start-line="171" selection-start-column="43" selection-end-line="171" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultPositionService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/java/com/yongyan/service/Impl/DefaultPositionService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -166,6 +120,9 @@
         <option value="$PROJECT_DIR$/locationsimulator/src/main/resources/public/index.html" />
         <option value="$PROJECT_DIR$/locationsimulator/src/main/resources/directions.json" />
         <option value="$PROJECT_DIR$/locationsimulator/src/main/resources/fixture.json" />
+        <option value="$PROJECT_DIR$/locationingest/pom.xml" />
+        <option value="$PROJECT_DIR$/locationingest/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -208,85 +165,37 @@
             <path>
               <item name="fullservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullservice" type="462c0819:PsiDirectoryNode" />
-              <item name="locationsimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="locationingest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullservice" type="462c0819:PsiDirectoryNode" />
-              <item name="locationsimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="locationingest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullservice" type="462c0819:PsiDirectoryNode" />
-              <item name="locationsimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullservice" type="462c0819:PsiDirectoryNode" />
-              <item name="locationsimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="locationingest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullservice" type="462c0819:PsiDirectoryNode" />
-              <item name="locationsimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="locationingest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yongyan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullservice" type="462c0819:PsiDirectoryNode" />
-              <item name="locationsimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="locationingest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yongyan" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullservice" type="462c0819:PsiDirectoryNode" />
-              <item name="locationsimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yongyan" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullservice" type="462c0819:PsiDirectoryNode" />
-              <item name="locationsimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yongyan" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullservice" type="462c0819:PsiDirectoryNode" />
-              <item name="locationsimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullservice" type="462c0819:PsiDirectoryNode" />
-              <item name="locationsimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,6 +214,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/locationingest/src/main/java/com/yongyan" />
       <recent name="$PROJECT_DIR$/locationsimulator/src/main/java/com/yongyan/support" />
       <recent name="$PROJECT_DIR$/locationsimulator/src/main/java/com/yongyan/task" />
       <recent name="$PROJECT_DIR$/locationsimulator/src/main/java/com/yongyan/service" />
@@ -377,12 +287,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536647954543</updated>
       <workItem from="1536647959412" duration="12056000" />
-      <workItem from="1536725760834" duration="3068000" />
+      <workItem from="1536725760834" duration="4291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15124000" />
+    <option name="totallyTimeSpent" value="16347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -707,24 +617,14 @@
     <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/resources/appliaction.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/java/com/yongyan/service/Impl/DefaultPositionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -767,7 +667,7 @@
     <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/resources/directions.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -775,6 +675,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="686">
           <caret line="171" column="43" selection-start-line="171" selection-start-column="43" selection-end-line="171" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationingest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationsimulator/src/main/java/com/yongyan/service/Impl/DefaultPositionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationingest/src/main/java/com/yongyan/LocationIngestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationingest/src/main/java/com/yongyan/VehiclePositionsSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationingest/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
