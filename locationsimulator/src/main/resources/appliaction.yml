@@ -1,0 +1,12 @@
+server:
+  port: 8701
+spring:
+  application:
+    name: location-simulator
+gpsSimulator:
+  googleApiKey: AIzaSyDvdz2cb4zfp8NQVFu4kdzXFoIcHG744I4
+
+com:
+  yongyan:
+    location:
+      ingest: http://173.227.36.74:8702
