@@ -107,31 +107,4 @@ public class LocationSimulatorRestApi {
         return fixture;
     }
 
-//    @RequestMapping("/kml/{instanceId}")
-//    public byte[] getKmlInstance(@PathVariable Long instanceId) {
-//        return kmlService.getKmlInstance(instanceId);
-//    }
-
-//    @RequestMapping("/gps.kml")
-//    public byte[] getKmlBootstrapKml() {
-//        return kmlService.getKmlBootstrap();
-//    }
-
-    private String getKmlUrl(HttpServletRequest request) {
-
-        final String scheme = request.getScheme();
-        final String serverName = request.getServerName();
-        final int serverPort = request.getServerPort();
-        final String contextPath = request.getContextPath();
-
-        StringBuilder url = new StringBuilder();
-        url.append(scheme).append("://").append(serverName);
-
-        if ((serverPort != 80) && (serverPort != 443)) {
-            url.append(":").append(serverPort);
-        }
-
-        url.append(contextPath).append("/api/kml/");
-        return url.toString();
-    }
 }
