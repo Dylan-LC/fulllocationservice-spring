@@ -1,9 +1,9 @@
 server:
-  port: 8712
+  port: 8713
 spring:
   application:
-    name: location-ingest
+    name: location-updater
   cloud:
     stream:
       bindings:
-        output: vehicles
+        input: vehicles
