@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by teacher on 12/16/16.
  */
 
-@EnableBinding(Source.class)
+@EnableBinding(Source.class) // binding it as source and tell rabbitMQ here is my source starter position
 @RestController
 public class VehiclePositionsSource {
 
@@ -23,6 +23,6 @@ public class VehiclePositionsSource {
 
     @RequestMapping(path = "/api/locations", method = RequestMethod.POST)
     public void locations(@RequestBody String positionInfo) {
-        this.output.send(MessageBuilder.withPayload(positionInfo).build());
+        this.output.send(MessageBuilder.withPayload(positionInfo).build()); // rabbitMQ's input
     }
 }
