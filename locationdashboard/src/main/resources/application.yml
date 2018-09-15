@@ -1,0 +1,13 @@
+server:
+  port: 8714
+spring:
+  application:
+    name: location-dashboard
+stomp:
+  url: 173.227.36.74:8713/stomp
+
+zuul:
+  routes:
+    location-service:
+      path: /location-service/**
+      url: http://173.227.36.74:8700

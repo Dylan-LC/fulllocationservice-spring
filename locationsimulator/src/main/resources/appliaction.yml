@@ -1,5 +1,5 @@
 server:
-  port: 8701
+  port: 8711
 spring:
   application:
     name: location-simulator

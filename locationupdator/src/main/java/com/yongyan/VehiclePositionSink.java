@@ -1,6 +1,7 @@
 package com.yongyan;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.yongyan.model.CurrentPosition;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.messaging.Sink;
